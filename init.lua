@@ -6,7 +6,7 @@ vim.g.maplocalleader = ' '
 vim.g.have_nerd_font = true
 
 -- Import lua files under config directory
-require 'config.options' -- For :make command
+require 'config.options'
 require 'config.keymaps'
 require 'config.build'
 require 'config.autocommands'
